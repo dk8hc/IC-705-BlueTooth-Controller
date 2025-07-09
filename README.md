@@ -6,3 +6,7 @@ Changed for higher Voltages after a Firmwareupdate of the Xiegu XPA125B which do
 
 See origin QRZ.com Page for more info.  https://www.qrz.com/db/pe1ofo
 A short movie on Youtube is here: https://youtu.be/0d7iSqlGFKM
+
+You have to add following libraries to your Arduino Soft:
+https://github.com/WillyIoBrok/CIVmasterLib
+https://github.com/Bodmer/TFT_eSPI
