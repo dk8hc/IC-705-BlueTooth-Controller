@@ -248,7 +248,7 @@ void set_PAbands(unsigned long frequency) {
         int bandcode;
     bandcode = G_currentBand;
    
-    switch (bandcode) {
+   switch (bandcode) {
     case 0:  // 160M
         bandvoltage=23;
         
@@ -257,31 +257,31 @@ void set_PAbands(unsigned long frequency) {
         bandvoltage = 46;
         break;
     case 2:  // 60M
-        bandvoltage = 69;
+        bandvoltage = 70;
         break;
     case 3:  // 40M
-        bandvoltage = 92;
+        bandvoltage = 93;
         break;
     case 4:  // 30M
-        bandvoltage = 115;
+        bandvoltage = 117;
         break;
     case 5:  // 20M
-        bandvoltage = 129;
+        bandvoltage = 140;
         break;
     case 6:  // 17M
-        bandvoltage = 161;
+        bandvoltage = 166;
         break;
     case 7:  // 15M
-        bandvoltage = 184;
+        bandvoltage = 189;
         break;
     case 8:  // 12M
-        bandvoltage = 207;
+        bandvoltage = 213;
         break;
     case 9:  // 10M
-        bandvoltage = 230;
+        bandvoltage = 237;
         break;
     case 10:  // 6M
-        bandvoltage = 253;
+        bandvoltage = 261;
         break;
     case 11:  // 2M
         bandvoltage = 0;
