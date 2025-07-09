@@ -1,5 +1,8 @@
 # IC-705-BlueTooth-Controller
 IC-705-BlueTooth-Controller for an Xiegu XPA125B Amplifier.
-See my QRZ.com Page for more info.  https://www.qrz.com/db/pe1ofo
+Fork from: https://github.com/PE1OFO/IC-705-BlueTooth-Controller
+
+Changed for higher Voltages after a Firmwareupdate of the Xiegu XPA125B which doesn't select correct bands in auto mode, check output Voltage for bandswitching before connect it to your Xiegu XPA125B!
+
+See origin QRZ.com Page for more info.  https://www.qrz.com/db/pe1ofo
 A short movie on Youtube is here: https://youtu.be/0d7iSqlGFKM
-![WNRC7028](https://user-images.githubusercontent.com/98652209/213926290-ea9a0f9a-8112-4f6e-a8dc-91120874ec16.JPG)
